@@ -74,7 +74,7 @@ def private_panel(_, BOT_USERNAME, OWNER: bool | int = None):
     if GITHUB_REPO and OWNER:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER)),
+                InlineKeyboardButton(text=_["S_B_7"], user_id=OWNER),
             ]
         )
     else:
